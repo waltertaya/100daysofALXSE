@@ -1,7 +1,5 @@
 # TypeScript Tutorial
 
-- **@waltertaya**
-
 ## Introduction
 
 - *TypeScript* is JavaScript with added syntax of the types.
