@@ -16,9 +16,13 @@
 
 - Evicts the recently added item in the cache
 
-### 3. LRU (Least Recently Visited)
+### 3. LRU (Least Recently Used)
 
 - Evicts least recently accessed item
+
+### 4. MRU (Most Recently Used)
+
+- Evicts most recently accessed item
 
 ## Author
 
