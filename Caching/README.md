@@ -12,6 +12,10 @@
 
 - Evicts the oldest item(process) in the cache
 
+### 2. LIFO
+
+- Evicts the recently added item in the cache
+
 ## Author
 
 - **@waltertaya**
