@@ -24,6 +24,10 @@
 
 - Evicts most recently accessed item
 
+### 5. LFU (Least Frequently Used)
+
+- Evicts the least frequently accessed item
+
 ## Author
 
 - **@waltertaya**
