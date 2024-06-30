@@ -39,6 +39,10 @@ class TestUser(unittest.TestCase):
         self.user3.update_email('cooper@gmail.com')
         self.assertEqual(self.user3.email, 'cooper@gmail.com')
 
+    def test_update_email_invalid(self):
+        with self.assertRaises(ValueError):
+            self.user3.update_email('invalid-email')
+
 
 if __name__ == '__main__':
     unittest.main()
