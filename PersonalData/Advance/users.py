@@ -42,5 +42,5 @@ class User:
         return userData
     
 if __name__ == '__main__':
-    user1 = User('taya', 'taya1234')
-    user2 = User('brett', 'cooper123')
+    user1 = User('', '')
+    user2 = User('', '')
