@@ -1,0 +1,2 @@
+2024-07-08 19:13:54,105:INFO:User [{'username': 'taya', 'password': 'taya1234', 'userId': UUID('754558b6-a20f-4ba2-984c-81aaa0f005a6'), 'created_at': datetime.datetime(2024, 7, 8, 19, 13, 54, 104986)}] added successfully
+2024-07-08 19:13:54,105:INFO:User [{'username': 'brett', 'password': 'cooper123', 'userId': UUID('0da873e0-6010-4a9b-a17c-4f4ca27460e6'), 'created_at': datetime.datetime(2024, 7, 8, 19, 13, 54, 105078)}] added successfully

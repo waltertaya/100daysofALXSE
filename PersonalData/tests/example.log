@@ -1,0 +1,2 @@
+2024-07-08 18:21:03,142 - example_logger - ERROR - This is an error message
+2024-07-08 18:21:03,143 - example_logger - CRITICAL - This is a critical message
