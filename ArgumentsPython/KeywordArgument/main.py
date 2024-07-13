@@ -6,23 +6,31 @@ import json
 
 
 def dict_to_json(my_dict, filename, **kwargs):
+    ''' Write dictionary to json file
+    '''
     print(f'Kwargs: {kwargs}')
     json_txt = json.dumps(my_dict, **kwargs)
     with open(filename, 'w') as f:
         f.write(json_txt)
 
 def json_to_dict(filename):
+    ''' Read json file and return a dictionary
+    '''
     with open (filename, 'r') as f:
         my_dict = json.load(f)
     return my_dict
 
 def function_with_kwargs(**kwargs):
+    ''' Function with keyword arguments
+    '''
     print(f'Kwargs: {kwargs}')
     for key, value in kwargs.items():
         print(f'{key}: {value}')
 
 
 if __name__ == '__main__':
+    ''' Example of using keyword arguments
+    '''
     my_dict = {'name': 'John', 'age': 25}
     options = {'indent': 4, 'sort_keys': True}
     dict_to_json(my_dict, 'my_dict.json', **options)
